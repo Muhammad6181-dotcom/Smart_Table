@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Smart Table</title>
+</head>
+<body>
+<h2>Foydalanuvchi ro‘yxati</h2>
+
+<input type="text" id="inputName" placeholder="Enter Name">
+<input type="text" id="inputLastName" placeholder="Enter Last Name">
+<input type="number" id="inputAge" placeholder="Enter Age">
+<input type="number" id="inputBalance" placeholder="Enter Balance">
+<button onclick="addPerson()">Show</button>
+<button onclick="randomSort()">Random Sort</button>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th onclick="sortTable('name')">Name</th>
+            <th onclick="sortTable('lastName')">Last Name</th>
+            <th onclick="sortTable('age')">Age</th>
+            <th onclick="sortTable('balance')">Balance</th>
+        </tr>
+    </thead>
+    <tbody id="res"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
