@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.form-box {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width: 150px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.add-btn {
+    background: #28a745;
+    color: white;
+}
+
+.random-btn {
+    background: #ff9800;
+    color: white;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background: #4facfe;
+    color: white;
+    padding: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+tr:hover {
+    background: #d1ecff;
+    transition: 0.3s;
+}
+ 
+th:hover {
+    background: #007bff;
+    transform: scale(1.05);
+}
+
+th.active {
+    background: #ff9800;
+    color: white;
+}
+
+.delete-btn {
+    background: #dc3545;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.delete-btn:hover {
+    background: #a71d2a;
+}
+
+.fade-out {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.4s ease;
+}

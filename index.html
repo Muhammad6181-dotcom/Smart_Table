@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Smart Table</title>
+<link rel="stylesheet" href="style.css  ">
 </head>
 <body>
 <h2>Foydalanuvchi ro‘yxati</h2>
@@ -17,10 +18,11 @@
 <table border="1">
     <thead>
         <tr>
-            <th onclick="sortTable('name')">Name</th>
-            <th onclick="sortTable('lastName')">Last Name</th>
-            <th onclick="sortTable('age')">Age</th>
-            <th onclick="sortTable('balance')">Balance</th>
+            <th onclick="sortTable('name', event)">Name</th>
+            <th onclick="sortTable('lastName', event)">Last Name</th>
+            <th onclick="sortTable('age', event)">Age</th>
+            <th onclick="sortTable('balance', event)">Balance</th>
+            <th>Action</th>
         </tr>
     </thead>
     <tbody id="res"></tbody>
